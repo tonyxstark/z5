@@ -51,11 +51,11 @@ echo "<img src='${img}' style='border-radius:7%; border: 3px solid orange; width
 
 
 header("Content-Type: application/json");
-echo "Title : ${title}<br><br>";
-echo "Description : ${des}<br><br><br><br>";
-echo "Image URL : ${img}<br><br>";
-echo "Video URL : ${vid}<br><br>";
-echo "Subtitle URL : ${sub}<br><br>";
+echo "Title : ${title}\n\n";
+echo "Description : ${des}\n\n\n\n";
+echo "Image URL : ${img}\n\n";
+echo "Video URL : ${vid}\n\n";
+echo "Subtitle URL : ${sub}\n\n";
 
 }
 }
