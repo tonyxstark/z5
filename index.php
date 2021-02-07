@@ -47,12 +47,13 @@ echo $err;
 else{
   header("X-UA-Compatible: IE=edge");
   header("Content-Type: application/json");
-  
-echo "Title : ${title}\n\n";
+
+echo "\n\nTitle : ${title}\n\n";
 echo "Description : ${des}\n\n\n\n";
 echo "Image URL : ${img}\n\n";
 echo "Video URL : ${vid}\n\n";
-echo "Subtitle URL : ${sub}\n\n";
+echo "Subtitle URL : ${sub}\n\n\n\n\n\n\n\n";
+echo "Created by Avishkar Patil\n\n";
 
 }
 }
