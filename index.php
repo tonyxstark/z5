@@ -45,6 +45,8 @@ if($error ==101){
 echo $err;
 }
 else{
+
+header("X-UA-Compatible: IE=edge");
 header("Content-Type: text/html; charset=utf-8");
 
 echo "<img src='${img}' style='border-radius:7%; border: 3px solid orange; width:150px;'><br><br>\n\n\n";
