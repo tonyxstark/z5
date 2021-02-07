@@ -1,5 +1,5 @@
 <?php
-$url =$_GET['q'];
+$url =$_GET['c'];
 if($url !=""){
 $id = end(explode('/', $url));
 $tlink ="https://gwapi.zee5.com/content/details/$id?translation=en&country=IN&version=2";
