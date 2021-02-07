@@ -48,6 +48,10 @@ header("Content-Type: application/json");
 
 echo  "Title : ${title}\n\n";
 echo "Description : ${des}\n\n\n\n";
+echo "Image URL : ${image}\n\n";
+echo "Video URL : ${url}\n\n";
+echo "Subtitle URL : ${sub}\n\n";
+
 }
 }
 else{
