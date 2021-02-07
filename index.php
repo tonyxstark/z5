@@ -49,11 +49,11 @@ else{
   header("Content-Type: application/json");
 
 echo "\n\nTitle : ${title}\n\n";
-echo "Description : ${des}\n\n\n\n";
+echo "Description : ${des}\n\n\n";
 echo "Image URL : ${img}\n\n";
 echo "Video URL : ${vid}\n\n";
 echo "Subtitle URL : ${sub}\n\n\n\n\n\n\n\n";
-echo "Created by Avishkar Patil\n\n";
+echo "✮ Created by Avishkar Patil\n\n";
 
 }
 }
