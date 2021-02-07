@@ -45,11 +45,12 @@ if($error ==101){
 echo $err;
 }
 else{
-
-header("X-UA-Compatible: IE=edge");
+  header("X-UA-Compatible: IE=edge");
 header("Content-Type: text/html; charset=utf-8");
+echo "<img src='${img}' style='border-radius:7%; border: 3px solid orange; width:150px;'><br><br>";
 
-echo "<img src='${img}' style='border-radius:7%; border: 3px solid orange; width:150px;'><br><br>\n\n\n";
+
+header("Content-Type: application/json");
 echo "Title : ${title}<br><br>";
 echo "Description : ${des}<br><br><br><br>";
 echo "Image URL : ${img}<br><br>";
