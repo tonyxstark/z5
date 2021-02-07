@@ -45,7 +45,7 @@ if($error ==101){
 echo $err;
 }
 else{
-header("Content-Type: application/json");
+
 
 echo "<img src='${img}' style='border-radius:7%; border: 3px solid orange; width:150px;'><br><br>\n\n\n";
 echo "Title : ${title}\n\n";
