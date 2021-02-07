@@ -39,7 +39,7 @@ $img = str_replace('270x152', '1170x658', $image);
 header("Content-Type: application/json");
 $errr= array("error" => "error provide proper input!" );
 $err =json_encode($errr);
-$apii = array("title" => $title, "description" => $des, "thumbnail" => $image, "video_url" => $vid, "subtitle_url" => $sub);
+$apii = array("title" => $title, "description" => $des, "thumbnail" => $img, "video_url" => $vid, "subtitle_url" => $sub);
 $api =json_encode($apii);
 if($error ==101){
 echo $err;
@@ -49,7 +49,7 @@ header("Content-Type: application/json");
 
 echo  "Title : ${title}\n\n";
 echo "Description : ${des}\n\n\n\n";
-echo "Image URL : ${image}\n\n";
+echo "Image URL : ${img}\n\n";
 echo "Video URL : ${vid}\n\n";
 echo "Subtitle URL : ${sub}\n\n";
 
