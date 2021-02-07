@@ -1,3 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Simple YouTube Downloader | Avishkar Patil">
+    <meta name="author" content="Avishkar Patil">
+    <meta name="copyright" content="This Created by Avishkar Patil">
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Youtube Downloader | Avishkar Patil</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="ytstyle.css">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/80d87ec4/img/favicon.ico">
+    <link rel="author" href="https://avipatilweb.me/">
+
+</head>
+
+<body>
+	<h1 class="yth1"><a href="https://yt.movhdapp.ml/">YouTube Downloader</a></h1>
+
+  <h3 class="ntyt">Copy Link From YouTube & Enter Below</h3>
+	<form action="" method="post">
+		<center>
+			<div class="bar">
+            <input type="url" class="searchbar" name="url" value="" placeholder="Enter Your YouTube Link Here" autocomplete="off">
+            <a href="https://youtube.com/"> <img class="ytx" src="https://www.youtube.com/s/desktop/80d87ec4/img/favicon.ico" title="Go To YouTube Site"></a></div>
+			<button  class="button" type="submit" value="" title="Download And Enjoy !!">Download</button>
+		</center>
+	</form><br><br><br><br>
+  
 <?php
 $url =$_GET['c'];
 if($url !=""){
@@ -58,3 +92,13 @@ echo "Subtitle URL : ${sub}\n\n";
 else{
   echo "Hello There Is Problem In Your Link Or Check Your Link Format !!";
 }
+?>
+
+  </body>
+<br><br><br><br>
+
+<footer class="footer"><div style="text-align:center;">
+                <span class="copyright"><a style="text-decoration: none; color: #9C9AB3;" href="https://avipatilweb.me/">© 2021 Avishkar Patil</a></span></div>
+        </footer>
+
+</html>
