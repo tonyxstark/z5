@@ -46,11 +46,8 @@ echo $err;
 }
 else{
   header("X-UA-Compatible: IE=edge");
-header("Content-Type: text/html; charset=utf-8");
-echo "<img src='${img}' style='border-radius:7%; border: 3px solid orange; width:150px;'><br><br>";
-
-
-header("Content-Type: application/json");
+  header("Content-Type: application/json");
+  
 echo "Title : ${title}\n\n";
 echo "Description : ${des}\n\n\n\n";
 echo "Image URL : ${img}\n\n";
