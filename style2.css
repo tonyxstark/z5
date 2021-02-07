@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{ background-color:#202020;}
+
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  font-family: 'Righteous', cursive;
+}
+.bar:hover{
+  box-shadow: 1px 1px 7px 1px #FF0091;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 7px 1px #EC0034;
+  outline:none;
+}
+.searchbar{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+  background-color: #202020;
+  color: #fff;
+  font-family: 'Righteous', cursive;
+  
+}
+.ytx{
+  height:25px;
+  position:relative;
+  top:5px;
+ 
+}
+
+.button{
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  border:none;
+  color:#fff;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  margin-top: 25px;
+  border-radius:15px;
+  outline:none;
+  width: 130px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Righteous', cursive;
+}
+
+.ytimg {
+  border:2px solid orange; 
+  border-radius:10px;
+}
+
+.ytbh1 {
+background-color: #00b712;
+background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+text-align:center;
+}
+
+.ytbh2 {
+  background-color: #fbb034;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+text-align:center;
+}
+
+.titleyt {
+  background-color: #bf033b;
+background-image: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+text-align:center;
+}
+
+
+@media only screen and (min-width : 100px) and (max-width : 780px)
+{
+  {}
+  .bar
+  {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width : 100px) and (max-width : 780px)
+{
+  {}
+  .searchbar
+  {
+    width: 78%;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+  }
+}
+
+@media only screen and (min-width : 100px) and (max-width : 780px)
+{
+  {}
+  .ytx
+  {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width : 100px) and (max-width : 500px)
+{
+  {}
+  .ytimg
+  {
+    width: 90%;
+  }
+}
